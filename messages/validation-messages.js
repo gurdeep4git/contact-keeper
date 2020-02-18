@@ -4,6 +4,8 @@ exports.userValidations = {
     'password': 'Please enter a password with 6 or more char'
 }
 
-exports.loginValidations = {
-    "email": "email is required"
+exports.authValidations = {
+    'inValidCredentials': 'Invalid Credentials',
+    'email': 'Please enter a valid email',
+    'password': 'Please enter a password'
 }

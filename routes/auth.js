@@ -24,7 +24,7 @@ router.get('/', authMiddleware, async (req, res) => {
 
 
 // @route   POST api/auth
-// @desc   auth user and get token
+// @desc    auth user and get token
 // @access  PUBLIC
 router.post('/', [
     check("email", authValidations.email).isEmail(),
